@@ -1,0 +1,147 @@
+object Form1: TForm1
+  Left = 326
+  Height = 530
+  Top = 250
+  Width = 682
+  Caption = 'MineTweaker GUI'
+  ClientHeight = 530
+  ClientWidth = 682
+  Color = clWhite
+  OnCreate = FormCreate
+  object ItemsListBox: TListBox
+    Left = 376
+    Height = 304
+    Top = 24
+    Width = 304
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    OnClick = ItemsListBoxClick
+    TabOrder = 0
+  end
+  object SearchEdit: TEdit
+    Left = 376
+    Height = 23
+    Top = 0
+    Width = 304
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = SearchEditChange
+    TabOrder = 1
+  end
+  object Cell1: TButton
+    Left = 56
+    Height = 64
+    Top = 32
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 2
+  end
+  object Cell2: TButton
+    Left = 152
+    Height = 64
+    Top = 32
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 3
+  end
+  object Cell3: TButton
+    Left = 248
+    Height = 64
+    Top = 32
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 4
+  end
+  object Cell4: TButton
+    Left = 56
+    Height = 64
+    Top = 128
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 5
+  end
+  object Cell5: TButton
+    Left = 152
+    Height = 64
+    Top = 128
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 6
+  end
+  object Cell6: TButton
+    Left = 248
+    Height = 64
+    Top = 128
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 7
+  end
+  object Cell7: TButton
+    Left = 56
+    Height = 64
+    Top = 224
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 8
+  end
+  object Cell8: TButton
+    Left = 152
+    Height = 64
+    Top = 224
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 9
+  end
+  object Cell9: TButton
+    Left = 248
+    Height = 64
+    Top = 224
+    Width = 64
+    Caption = 'null'
+    OnClick = ReNameButton
+    OnMouseDown = NullifyButton
+    TabOrder = 10
+  end
+  object OutPutMemo: TMemo
+    Left = 8
+    Height = 192
+    Top = 336
+    Width = 672
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 11
+  end
+  object ResultComboBox: TComboBox
+    Left = 56
+    Height = 23
+    Top = 305
+    Width = 228
+    ItemHeight = 15
+    TabOrder = 12
+  end
+  object Button1: TButton
+    Left = 296
+    Height = 25
+    Top = 305
+    Width = 75
+    Caption = 'Save'
+    OnClick = Button1Click
+    TabOrder = 13
+  end
+end
